@@ -1,2 +1,4 @@
 # diverge-example-mod
- Example mod for Minecraft Diverge
+
+Babric example mod for Minecraft Diverge.
+
