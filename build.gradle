@@ -8,7 +8,8 @@ archivesBaseName = project.mod_name
 version = project.mod_version
 
 loom {
-	gluedMinecraftJar()
+        //server isn't gonna work anyways
+	clientOnlyMinecraftJar()
 	noIntermediateMappings()
 	customMinecraftManifest.set("https://github.com/ClickNinYT/diverge-deobf/releases/download/${project.diverge_version}/mcdiverge.json")
 }
